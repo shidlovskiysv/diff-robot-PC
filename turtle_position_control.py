@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 
 import rospy
-from geometry_msgs.msg import PoseStamped, Twist
-from mavros_msgs.msg import State, OverrideRCIn
-from mavros_msgs.srv import CommandBool, CommandBoolRequest, SetMode, SetModeRequest
+from geometry_msgs.msg import Twist
 from gazebo_msgs.msg import ModelStates
 import numpy as np
 from tf.transformations import euler_from_quaternion
